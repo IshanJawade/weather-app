@@ -6,6 +6,13 @@ According to tempreture appliaction changes its ambience.
 
 ### Screenshots
 
+![](Screenshots/Home-Screen.png)
+
+![](Screenshots/Cold.png)
+
+![](Screenshots/Warm.png)
+
+
 ### API 
 
 For getting information about current weather a free 
