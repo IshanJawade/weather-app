@@ -57,7 +57,7 @@ function App() {
 
           <div className='weather-box'>
             <div className='temp'>
-              15°C
+              {weather.main.temp}°C
             </div>
             <div className="weather">
               Sunny
