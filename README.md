@@ -6,11 +6,11 @@ According to tempreture appliaction changes its ambience.
 
 ### Screenshots
 
-![](Screenshots/Home-Screen.png)
+![](Screenshots/Home-Screen.jpg)
 
-![](Screenshots/Cold.png)
+![](Screenshots/Cold.jpg)
 
-![](Screenshots/Warm.png)
+![](Screenshots/Warm.jpg)
 
 
 ### API 
