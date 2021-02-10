@@ -60,7 +60,7 @@ function App() {
               {weather.main.temp}°C
             </div>
             <div className="weather">
-              Sunny
+              {weather.weather[0].main}
             </div>
           </div>
 
