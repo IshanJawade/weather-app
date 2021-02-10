@@ -27,5 +27,5 @@ Dowanload dependencies:\
 Start the app on your localhost:\
 `npm start`
 
-To see output open your favorite browser and type:
+To see output open your favorite browser and type:\
 http://localhost:3000
