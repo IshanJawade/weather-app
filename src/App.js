@@ -36,7 +36,9 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className={typeof weather.main != "undefined"
+    ? ((weather.main.temp > 27) ? 'app warm': 'app')
+    : 'app'}>     {/* For dynamic div className */}
       <main>
         <div className="search-box">
           <input 
@@ -48,7 +50,7 @@ function App() {
             onKeyPress={search}
           />
         </div>
-
+      {(typeof weather.main != "undefined") ? (
         <div>
           <div className='location-box'>
             <div className="location">{weather.name}, {weather.sys.country}</div>
@@ -57,14 +59,14 @@ function App() {
 
           <div className='weather-box'>
             <div className='temp'>
-              {weather.main.temp}°C
+              {Math.round(weather.main.temp)}°C
             </div>
             <div className="weather">
-              {weather.weather[0].main}
+              {weather.weather[0].main} {/* Weather Text */}
             </div>
           </div>
-
         </div>
+      ) : ("")} {/* this will print empty app without any info*/}
       </main>
     </div>
   );
