@@ -9,12 +9,19 @@ function App() {
   return (
     <div className="app">
       <main>
-        <div className="searchbox">
+        <div className="search-box">
           <input 
             type='text' 
             className='search-bar'
             placeholder='search...'
           />
+        </div>
+
+        <div>
+          <div className='location-box'>
+            <div className="location">Pune, Maharashtra, India</div>
+            <div className="date">10/02/2021</div>
+          </div>
         </div>
       </main>
     </div>
