@@ -11,9 +11,7 @@ According to tempreture appliaction changes its ambience.
 ### Screenshots
 
 ![](Screenshots/Home-Screen.jpg)
-
 ![](Screenshots/Cold.jpg)
-
 ![](Screenshots/Warm.jpg)
 
 
