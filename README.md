@@ -1,5 +1,6 @@
 # Weather Application
-### In ReactJs
+
+### Developed using React
 
 
 
