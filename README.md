@@ -8,6 +8,7 @@ A simple weather web appliction developed in ReactJs
 which will give you weather information as a result.
 According to tempreture appliaction changes its ambience.
 
+
 ### Screenshots
 
 ![](Screenshots/Home-Screen.jpg)
@@ -38,3 +39,5 @@ Start the app on your localhost:\
 
 To see output open your favorite browser and type:\
 http://localhost:3000
+
+It is simple and efficient as a code should be.
